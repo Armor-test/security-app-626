@@ -1,0 +1,38 @@
+# CODEOWNERS file for security-app-626
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-tooling @Armor-test/dept-billing @Armor-test/dept-test
+
+# Directory ownership
+/utils/ @Armor-test/squad-payments @Armor-test/squad-ml @Armor-test/unit-test
+/vendor/ @Armor-test/dept-ui @Armor-test/unit-cloud @Armor-test/squad-tooling
+/modules/ @Armor-test/grp-payments @Armor-test/unit-governance @Armor-test/grp-api
+/pages/ @Armor-test/squad-ml @Armor-test/dept-notifications
+/api/ @Armor-test/unit-devops @Armor-test/team-frontend @Armor-test/dept-reporting
+/middleware/ @Armor-test/grp-reporting @Armor-test/squad-reporting @Armor-test/grp-integration
+/config/ @Armor-test/dept-security @Armor-test/team-core @Armor-test/team-notifications
+/styles/ @Armor-test/dept-reporting @Armor-test/unit-test @Armor-test/grp-reporting
+/tests/ @Armor-test/squad-product @Armor-test/dept-test @Armor-test/squad-research
+/examples/ @Armor-test/squad-apps @Armor-test/dept-reporting
+/ui/ @Armor-test/squad-tooling @Armor-test/team-research @Armor-test/dept-test
+/pkg/ @Armor-test/unit-governance @Armor-test/unit-cloud @Armor-test/dept-reporting
+/security/ @Armor-test/squad-apps @Armor-test/team-notifications
+
+# File type ownership
+*.rs @Armor-test/squad-reporting @Armor-test/squad-database
+*.h @Armor-test/team-core @Armor-test/dept-billing @Armor-test/grp-search
+*.xml @Armor-test/dept-notifications @Armor-test/unit-governance @Armor-test/squad-cache
+*.js @Armor-test/squad-mobile @Armor-test/squad-frontend @Armor-test/team-reporting
+*.properties @Armor-test/squad-payments @Armor-test/team-security @Armor-test/grp-ui
+*.rb @Armor-test/team-research @Armor-test/team-frontend
+*.md @Armor-test/dept-billing @Armor-test/dept-automation @Armor-test/squad-product
+*.css @Armor-test/unit-cloud @Armor-test/dept-api
+*.go @Armor-test/squad-qa @Armor-test/unit-devops @Armor-test/squad-reporting
+*.scala @Armor-test/squad-frontend @Armor-test/grp-integration @Armor-test/unit-test
+*.cs @Armor-test/squad-database @Armor-test/squad-reporting
+*.graphql @Armor-test/team-notifications @Armor-test/grp-payments
+*.yml @Armor-test/unit-governance @Armor-test/dept-reliability
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
